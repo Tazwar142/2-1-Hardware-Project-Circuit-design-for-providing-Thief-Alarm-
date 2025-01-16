@@ -1,0 +1,22 @@
+* D:\2 1 hardware project\schematics\s2.sch
+
+* Schematics Version 9.2
+* Wed Feb 09 22:47:34 2022
+
+
+
+** Analysis setup **
+.DC LIN V_Vdd 0 30 1 
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "s2.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

@@ -1,0 +1,8 @@
+* Schematics Netlist *
+
+
+
+V_Vdd         1 0 0V
+M_M3         D G 0 0 IRF150
+V_Vgs         G 0 3
+R_RD         D 1  560  
